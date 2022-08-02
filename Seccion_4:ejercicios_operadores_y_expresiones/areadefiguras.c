@@ -15,7 +15,8 @@ int main(){
     printf ("El aerea del triangulo es: %.2f", area);
 
     */
-    float lado,area;
+    float lado;
+    float area;
 
     printf ("Este programa calcula el aerea de un cuadrado\n");
     printf ("Inserta el lado\n");

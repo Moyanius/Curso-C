@@ -10,7 +10,9 @@ Debes de dar el precio y el programa debe de dar los precios con el descuento y 
 
 int main(){
 
-    float precio, descuento,compraDescuento;
+    float precio;
+    float descuento;
+    float compraDescuento;
 
     printf("Dame el precio del descuento\n");
     scanf("%f",&precio);
@@ -19,9 +21,6 @@ int main(){
     compraDescuento = precio - descuento;
 
     printf("El precio del producto con el descuento es %.2f€\nEl total descosntando es %.2f€",compraDescuento,descuento);
-
-
    
-
-return 0;
+    return 0;
 }
