@@ -29,7 +29,7 @@ int main(){
          continue;
      printf("\nVariable = %i",variable);
      variable = 10 + 5;
-     printf("\nValor final de la variable = %i",variable);
+     printf("\nValor final de la variAble = %i",variable);
     
     return 0;
 
