@@ -19,13 +19,30 @@ int main()
     int months;
     int weeks;
     int days;
-    int hours;
-    int seconds;
+    long hours;
+    long minutes;
+    long seconds;
 
-    printf("Este programa pasara los años introducidos a segundos\n");
+    printf("Este programa pasará los años introducidos a segundos\n");
     printf("Introduce el número de años\n");
 
     scanf("%i", &years);
+
+    months = years * 12;
+    weeks = months * 4;
+    days =  weeks * 7;
+    hours = days * 24;
+    minutes = hours * 60;
+    seconds = minutes * 60;
+
+    printf("%d meses\n", months);
+    printf("%d semanas\n", weeks);
+    printf("%d dias\n", days);
+    printf("%ld horas\n", hours);
+    printf("%ld minutos\n", minutes);
+    printf("%ld segundos\n", seconds);
+    printf("Aprovecha el tiempo, es poco e irreversible");
+
 
     return (0);
 
