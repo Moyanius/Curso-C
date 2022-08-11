@@ -21,9 +21,16 @@ int main (){
     float premium;
     float pago;
 
-    printf("Cuanto estás dispuesto a pagar?");
+    printf("Cuanto estás dispuesto a pagar?\n");
     scanf("%f", &pago);
 
-    if(pago >= 100 || pago <= 499);
-        printf("")
+    if(pago >= 100 && pago <= 499)
+        printf("La tarifa segun tu consumo es Tarifa Basica\n");
+    
+    else if(pago >= 500 && pago <= 999)
+        printf("La tarifa segun tu consumo es Tarifa Intermedia\n");
+
+    else if(pago >= 1000)
+        printf("La tarifa segun tu consumo es Tarifa Premium\n");
+    return 0;
 }
